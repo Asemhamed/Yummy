@@ -83,22 +83,22 @@ async function showDetails(id){
                 <p class="h3 fw-bold">Area :<span class="fw-semibold"> ${meal.meals[0].strArea}</span></p>
                 <p class="h3 fw-bold">Category :<span class="fw-semibold"> ${meal.meals[0].strCategory}</span></p>
                 <p class="h3 ">Recipes :<br> 
-                <span class="recipe${meal.meals[0].strIngredient1==""?'d-none':''}">${meal.meals[0].strIngredient1}</span>
-                <span class="recipe${meal.meals[0].strIngredient2==""?'d-none':''}">${meal.meals[0].strIngredient2}</span>
-                <span class="recipe${meal.meals[0].strIngredient3==""?'d-none':''}">${meal.meals[0].strIngredient3}</span>
-                <span class="recipe${meal.meals[0].strIngredient4==""?'d-none':''}">${meal.meals[0].strIngredient4}</span>
-                <span class="recipe${meal.meals[0].strIngredient5==""?'d-none':''}">${meal.meals[0].strIngredient5}</span>
-                <span class="recipe${meal.meals[0].strIngredient6==""?'d-none':''}">${meal.meals[0].strIngredient6}</span>
-                <span class="recipe${meal.meals[0].strIngredient7==""?'d-none':''}">${meal.meals[0].strIngredient7}</span>
-                <span class="recipe${meal.meals[0].strIngredient8==""?'d-none':''}">${meal.meals[0].strIngredient8}</span>
-                <span class="recipe${meal.meals[0].strIngredient9==""?'d-none':''}">${meal.meals[0].strIngredient9}</span>
-                <span class="recipe${meal.meals[0].strIngredient10==""?'d-none':''}">${meal.meals[0].strIngredient10}</span>
-                <span class="recipe${meal.meals[0].strIngredient11==""?'d-none':''}">${meal.meals[0].strIngredient11}</span>
-                <span class="recipe${meal.meals[0].strIngredient12==""?'d-none':''}">${meal.meals[0].strIngredient12}</span>
-                <span class="recipe${meal.meals[0].strIngredient13==""?'d-none':''}">${meal.meals[0].strIngredient13}</span>
-                <span class="recipe${meal.meals[0].strIngredient14==""?'d-none':''}">${meal.meals[0].strIngredient14}</span>
-                <span class="recipe${meal.meals[0].strIngredient15==""?'d-none':''}">${meal.meals[0].strIngredient15}</span>
-                <span class="recipe${meal.meals[0].strIngredient16==""?'d-none':''}">${meal.meals[0].strIngredient16}</span>
+                <span class="recipe${meal.meals[0].strIngredient1==""?'d-none':''}">${meal.meals[0].strMeasure1} ${meal.meals[0].strIngredient1}</span>
+                <span class="recipe${meal.meals[0].strIngredient2==""?'d-none':''}">${meal.meals[0].strMeasure2} ${meal.meals[0].strIngredient2}</span>
+                <span class="recipe${meal.meals[0].strIngredient3==""?'d-none':''}">${meal.meals[0].strMeasure3} ${meal.meals[0].strIngredient3}</span>
+                <span class="recipe${meal.meals[0].strIngredient4==""?'d-none':''}">${meal.meals[0].strMeasure4} ${meal.meals[0].strIngredient4}</span>
+                <span class="recipe${meal.meals[0].strIngredient5==""?'d-none':''}">${meal.meals[0].strMeasure5} ${meal.meals[0].strIngredient5}</span>
+                <span class="recipe${meal.meals[0].strIngredient6==""?'d-none':''}">${meal.meals[0].strMeasure6} ${meal.meals[0].strIngredient6}</span>
+                <span class="recipe${meal.meals[0].strIngredient7==""?'d-none':''}">${meal.meals[0].strMeasure7} ${meal.meals[0].strIngredient7}</span>
+                <span class="recipe${meal.meals[0].strIngredient8==""?'d-none':''}">${meal.meals[0].strMeasure8} ${meal.meals[0].strIngredient8}</span>
+                <span class="recipe${meal.meals[0].strIngredient9==""?'d-none':''}">${meal.meals[0].strMeasure9} ${meal.meals[0].strIngredient9}</span>
+                <span class="recipe${meal.meals[0].strIngredient10==""?'d-none':''}">${meal.meals[0].strMeasure10} ${meal.meals[0].strIngredient10}</span>
+                <span class="recipe${meal.meals[0].strIngredient11==""?'d-none':''}">${meal.meals[0].strMeasure11} ${meal.meals[0].strIngredient11}</span>
+                <span class="recipe${meal.meals[0].strIngredient12==""?'d-none':''}">${meal.meals[0].strMeasure12} ${meal.meals[0].strIngredient12}</span>
+                <span class="recipe${meal.meals[0].strIngredient13==""?'d-none':''}">${meal.meals[0].strMeasure13} ${meal.meals[0].strIngredient13}</span>
+                <span class="recipe${meal.meals[0].strIngredient14==""?'d-none':''}">${meal.meals[0].strMeasure14} ${meal.meals[0].strIngredient14}</span>
+                <span class="recipe${meal.meals[0].strIngredient15==""?'d-none':''}">${meal.meals[0].strMeasure15} ${meal.meals[0].strIngredient15}</span>
+                <span class="recipe${meal.meals[0].strIngredient16==""?'d-none':''}">${meal.meals[0].strMeasure16} ${meal.meals[0].strIngredient16}</span>
                 </p>
                 <p class="h3">Tags :<br> 
                     <a href="${meal.meals[0].strSource}" class=" tag bg-success">Source</a>
